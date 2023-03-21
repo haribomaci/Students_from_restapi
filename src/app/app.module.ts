@@ -1,3 +1,13 @@
+// <!--
+// File: student.componnt.html
+// Author: Tóth Júlia
+// Copyright: 2023, Tóth Júlia
+// Group: Szoft 2/n
+// Date: 2023-03-21
+// Github: https://github.com/haribomaci/
+// Licenc: GNU GPL
+// -->
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
