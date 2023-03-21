@@ -16,7 +16,8 @@ export class StudentComponent implements OnInit{
     ){}
 
   ngOnInit(): void {
-      
+      this.getStudent();
+      this.getScore();
   }
   getStudent()
   {

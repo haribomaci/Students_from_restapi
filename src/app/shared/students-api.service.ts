@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class StudentsApiService {
-  host = "http://localhost:300/";
+  host = "http://localhost:3000";
   constructor(
     private http: HttpClient
   ) { }
@@ -13,7 +13,7 @@ export class StudentsApiService {
   getStudent(){
 
     let endpoint="students";
-    let url = this.host + endpoint;
+    let url = this.host + "/" + endpoint;
 
     return this.http.get<any>(url)
   }

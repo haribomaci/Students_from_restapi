@@ -1,1 +1,66 @@
-<p>student works!</p>
+<table>
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Gender
+            </th>
+            <th>
+                Group
+            </th>
+        </tr>
+    </thead>
+    <thead>
+        <tr *ngFor="let stud of students">
+            <th>
+                {{stud.id}}
+            </th>
+            <th>
+                {{stud.name}}
+            </th>
+            <th>
+                {{stud.gender}}
+            </th>
+            <th>
+                {{stud.group}}
+            </th>
+        </tr>
+    </thead>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Score
+            </th>
+            <th>
+                tudent
+            </th>
+
+        </tr>
+    </thead>
+    <thead>
+        <tr *ngFor="let stud of students">
+            <th>
+                {{stud.id}}
+            </th>
+            <th>
+                {{stud.name}}
+            </th>
+            <th>
+                {{stud.gender}}
+            </th>
+            <th>
+                {{stud.group}}
+            </th>
+        </tr>
+    </thead>
+</table>
