@@ -1,4 +1,4 @@
-<table>
+<table class="table table-dark table table-striped mt-4 ">
     <thead>
         <tr>
             <th>
@@ -17,22 +17,22 @@
     </thead>
     <thead>
         <tr *ngFor="let stud of students">
-            <th>
+            <td>
                 {{stud.id}}
-            </th>
-            <th>
+            </td>
+            <td>
                 {{stud.name}}
-            </th>
-            <th>
+            </td>
+            <td>
                 {{stud.gender}}
-            </th>
-            <th>
+            </td>
+            <td>
                 {{stud.group}}
-            </th>
+            </td>
         </tr>
     </thead>
 </table>
-<table>
+<table class="table table-dark table-striped">
     <thead>
         <tr>
             <th>
@@ -42,25 +42,22 @@
                 Score
             </th>
             <th>
-                tudent
+                StudentId
             </th>
 
         </tr>
     </thead>
     <thead>
-        <tr *ngFor="let stud of students">
+        <tr *ngFor="let score of scores">
             <th>
-                {{stud.id}}
+                {{score.id}}
             </th>
             <th>
-                {{stud.name}}
+                {{score.score}}
             </th>
             <th>
-                {{stud.gender}}
+                {{score.studentId}}
             </th>
-            <th>
-                {{stud.group}}
-            </th>
-        </tr>
+
     </thead>
 </table>

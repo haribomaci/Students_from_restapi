@@ -20,7 +20,7 @@ export class StudentsApiService {
   getScore(){
 
     let endpoint="scores";
-    let url = this.host + endpoint;
+    let url = this.host + "/" + endpoint;
 
     return this.http.get<any>(url)
   }

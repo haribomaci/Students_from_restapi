@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { StudentsApiService } from '../shared/students-api.service';
+import { StudentsApiService } from '../shared/api.service';
 
 @Component({
   selector: 'app-student',
